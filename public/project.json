@@ -1,0 +1,123 @@
+[
+  {
+    "project_name": "RestoRooms",
+    "purpose": "A modern Hotel Booking Platform that provides users with a seamless and engaging experience for discovering and booking hotel rooms. It combines interactive design, robust functionality, and secure user authentication to ensure an enjoyable and trustworthy platform for users.",
+    "live_url": "https://restorooms.netlify.app/",
+    "github_repo_link": "https://github.com/your-username/hotel-booking-platform",
+    "image": "https://i.ibb.co.com/TYVKkJ8/Screenshot-77.png",
+    "images": [
+      "https://i.ibb.co.com/PCcMBNh/Screenshot-94.png",
+      "https://i.ibb.co.com/W5btzr1/Screenshot-93.png",
+      "https://i.ibb.co.com/vVxMjP4/Screenshot-92.png",
+      "https://i.ibb.co.com/ryB9bY6/Screenshot-91.png",
+      "https://i.ibb.co.com/vH8bPGJ/Screenshot-90.png",
+      "https://i.ibb.co.com/tCRswn8/Screenshot-95.png",
+      "https://i.ibb.co.com/Qjzbtnx/Screenshot-89.png",
+      "https://i.ibb.co.com/ck51Hn6/Screenshot-88.png"
+    ],
+    "key_features": [
+      "Homepage Design: Includes a banner, a map, and featured rooms with a 'Book Now' button.",
+      "User Authentication: Email and password-based authentication, including social login options.",
+      "Rooms Page: Displays all rooms with images, descriptions, and booking options.",
+      "Room Details Page: Displays detailed information about rooms, with booking and review options.",
+      "My Bookings Page: Shows the rooms booked by the logged-in user, with options to cancel and update booking dates.",
+      "Review System: Allows users to post reviews for rooms they've booked.",
+      "Access Control: Only authenticated users can book rooms and post reviews.",
+      "404 Page: Custom 404 page for invalid routes.",
+      "Secure Data Management: Secure credentials using environment variables for Firebase and MongoDB."
+    ],
+    "npm_packages": [
+      "React",
+      "React Router DOM",
+      "Firebase",
+      "Tailwind CSS",
+      "React Toastify",
+      "SweetAlert2",
+      "MongoDB",
+      "React Simple Typewriter",
+      "React Tooltip",
+      "dotenv",
+      "Cors",
+      "Express",
+      "React countup",
+      "momentjs",
+      "JWT"
+    ]
+  },
+  {
+    "project_name": "Visa Nexus",
+    "purpose": "The Visa Navigator Portal aims to simplify and enhance the process of managing visa related activities by providing a user-friendly platform. It allows users to explore various visa options, check detailed requirements, apply for visas, and track their applications seamlessly.",
+    "live_url": "https://visa-nexus.netlify.app/",
+    "github_repo_link": "https://github.com/your-username/visa-nexus",
+    "image": "https://i.ibb.co.com/TYVKkJ8/Screenshot-77.png",
+    "images": [
+      "https://i.ibb.co.com/JQcyWDf/Screenshot-85.png",
+      "https://i.ibb.co.com/VHhJ3WM/Screenshot-84.png",
+      "https://i.ibb.co.com/FBMcKZJ/Screenshot-82.png",
+      "https://i.ibb.co.com/WzPh5xH/Screenshot-80.png",
+      "https://i.ibb.co.com/RBpV7z0/Screenshot-78.png",
+      "https://i.ibb.co.com/TYVKkJ8/Screenshot-77.png"
+    ],
+    "key_features": [
+      "Simplified Visa Management: Easily browse visa options, check requirements, and track applications.",
+      "Firebase Authentication: Secure login/register with Google sign-in and private user routes.",
+      "Visa Application Tracking: Users can view and manage their visa applications with real-time updates.",
+      "Add and Manage Visas: Private route to add, update, and delete visas, with secure database integration.",
+      "Responsive Design: Fully optimized for mobile, tablet, and desktop devices.",
+      "Filter and Search Options: Advanced filtering by visa type and search functionality for easy navigation.",
+      "User-Friendly Alerts: Toast and sweet alert notifications for all actions and error handling.",
+      "Error Handling: Custom 404 page for invalid routes.",
+      "Secure Data Management: Environment variables for Firebase keys and secure user access.",
+      "Light/Dark Mode Toggle: Theme customization for better user experience."
+    ],
+    "npm_packages": [
+      "React",
+      "React Router DOM",
+      "Firebase",
+      "Tailwind CSS",
+      "React Toastify",
+      "SweetAlert2",
+      "MongoDB",
+      "React Simple Typewriter",
+      "React Tooltip",
+      "dotenv",
+      "Cors",
+      "Express",
+      "React countup"
+    ]
+  },
+  {
+    "project_name": "Lingo Bingo",
+    "purpose": "Lingo Bingo is a vocabulary learning application designed to make language acquisition fun, interactive, and accessible. The purpose of the website is to help users overcome the challenges of memorizing and retaining vocabulary in a new language through an engaging and structured approach.",
+    "live_url": "https://lingo-bingoo.netlify.app/",
+    "github_repo_link": "https://github.com/your-username/lingo-bingo",
+    "image": "https://i.ibb.co.com/1bKH1Lc/Screenshot-74.png",
+    "images": [
+      "https://i.ibb.co.com/kqtsWjM/Screenshot-76.png",
+      "https://i.ibb.co.com/GPH8YGB/Screenshot-75.png",
+      "https://i.ibb.co.com/1bKH1Lc/Screenshot-74.png",
+      "https://i.ibb.co.com/ZW6GnxB/Screenshot-71.png",
+      "https://i.ibb.co.com/MsnPM4W/Screenshot-70.png"
+    ],
+    "key_features": [
+      "Interactive Vocabulary Learning: Structured lessons with pronunciation, meaning, and usage examples.",
+      "Firebase Authentication: Secure login/register with Google sign-in and private user routes.",
+      "User Profiles: View and update profile details like name and photo.",
+      "Gamified Progress: Animated counters for vocabulary and lessons completed.",
+      "Tutorials: Embedded YouTube videos for pronunciation and cultural learning.",
+      "Responsive Design: Optimized for mobile, tablet, and desktop devices.",
+      "Pronunciation Support: Audio feature to pronounce vocabulary words.",
+      "Error Handling: Custom 404 page for invalid routes.",
+      "Secure Data Management: Environment variables for Firebase keys and secure user access."
+    ],
+    "npm_packages": [
+      "react",
+      "react-router-dom",
+      "firebase",
+      "react-toastify",
+      "react-countup",
+      "axios",
+      "animate.css"
+    ]
+  }
+]

@@ -6,15 +6,15 @@ const NavBar = () => {
 
     const links = <>
         <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/learning'>Start-Learning</NavLink></li>
+        <li><NavLink to='/education'>My-Education</NavLink></li>
         <li><NavLink to='/tutorials'>Tutorials</NavLink></li>
-        <li><NavLink to='/aboutUs'>About-Us</NavLink></li>
+        <li><NavLink to='/aboutMe'>About-Me</NavLink></li>
 
 
     </>
     return (
 
-        <div className="navbar fixed z-30 bg-white bg-opacity-75">
+        <div className="navbar fixed z-30 border-b-2 bg-[#f5f5f5] bg-opacity-75">
             <div className="navbar-start ">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
