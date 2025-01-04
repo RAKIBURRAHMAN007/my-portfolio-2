@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LatestProjectCard from './LatestProjectCard';
+import { Helmet } from 'react-helmet';
 
 const MyLatestProjects = () => {
     const [projects, setProjects] = useState([]);
@@ -12,6 +13,11 @@ const MyLatestProjects = () => {
 
     return (
         <div className="w-11/12 mx-auto mt-36">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Education | Ratul-Portfolio</title>
+                
+            </Helmet>
             {/* Section Title */}
             <h1 className="font-bold text-center text-2xl md:text-3xl lg:text-4xl">
                 Explore My Recent <br /> Projects

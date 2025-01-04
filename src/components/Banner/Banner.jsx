@@ -58,9 +58,11 @@ const Banner = () => {
                         </a>
                     </div>
                     <div className='mt-16'>
-                        <button className="btn btn-outline border-0 border-l-2 border-b-8 border-r-4 border-t-2 w-48">
-                            Resume
-                        </button>
+                        <a href="https://drive.google.com/uc?export=download&id=1cCBfj5ehLo3bmG3vUkPOtGuQnPWTHAyW">
+                            <button className="btn btn-outline border-0 border-l-2 border-b-8 border-r-4 border-t-2 md:w-48">
+                                 Resume
+                            </button>
+                        </a>
                     </div>
                 </div>
 

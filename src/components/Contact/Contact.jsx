@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Lottie from 'lottie-react';
 import contactLottie from '../..//assets/Animation - 1736018970806.json'
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -46,6 +47,11 @@ const Contact = () => {
 
     return (
         <div className="w-11/12 mx-auto mt-32 space-y-20">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Contact | Ratul-Portfolio</title>
+
+            </Helmet>
             <h1 className="text-3xl font-semibold text-center mb-6">Contact Me</h1>
             <div className='md:flex justify-center items-center gap-10 border-2 w-11/12 mx-auto'>
                 <div className='md:w-1/2'>
