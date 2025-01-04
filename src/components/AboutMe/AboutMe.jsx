@@ -23,7 +23,7 @@ const AboutMe = () => {
                 {/* Right Side: Text */}
                 <div className="md:w-1/2 space-y-10 flex flex-col justify-between">
                     <div>
-                        <h2 className="text-3xl font-bold mb-4">My Web Journey</h2>
+                        <h2 className="text-3xl mt-2 md:mt-0 font-bold mb-4">My Web Journey</h2>
                         <p className="text-lg text-gray-600 mb-6">
                             My journey into web development began during the COVID-19 pandemic. With plenty of time at hand, I started learning HTML, CSS, and Bootstrap. The thrill of seeing my work come to life in real-time made me fall in love with development. However, due to challenges and the closure of my IT center, I had to pause my learning journey.
                         </p>

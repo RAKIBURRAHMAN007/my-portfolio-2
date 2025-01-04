@@ -48,7 +48,7 @@ const MyEducation = () => {
                     <strong>Group:</strong> Science
                 </p>
                 <p className="text-gray-600 group-hover:text-white">
-                    <strong>Duration:</strong> [2013 – 2018]
+                    <strong>Duration:</strong> [2017 – 2018]
                 </p>
                 <ul className="list-disc pl-6 text-gray-700 group-hover:text-white mt-2">
                     <li>Developed a keen interest in technology and Science.</li>
