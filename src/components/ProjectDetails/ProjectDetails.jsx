@@ -45,7 +45,7 @@ const ProjectDetails = () => {
                     <span className='font-bold text-2xl'>Live-URL: </span><a className='text-red-600 underline' href={live_url}> {live_url}</a>
                 </p>
                 <p className="text-gray-600 ">
-                    <span className='font-bold text-2xl'>Github Repo-Link: </span><a className='text-red-600 underline' href={github_repo_link}> {github_repo_link}</a>
+                    <span className='font-bold text-2xl'>Github Repo-Link: </span><a className='text-red-600 break-words underline' href={github_repo_link}> {github_repo_link}</a>
                 </p>
             </div>
 
