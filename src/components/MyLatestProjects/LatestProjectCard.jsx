@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 
 const LatestProjectCard = ({ project }) => {
     // Settings for the react-slick carousel
@@ -36,9 +37,10 @@ const LatestProjectCard = ({ project }) => {
                 <p className="text-gray-700 text-base text-justify mb-4">
                     <span className="font-bold text-xl">Purpose:</span> {project.purpose}
                 </p>
-                <button className="btn btn-outline border-0 border-l-2 border-b-8 border-r-4 border-t-2 md:w-48">
-                    View Details
-                </button>
+                <Link to={`/details/${project.project_id}`}>
+                    <button className="btn btn-outline border-0 border-l-2 border-b-8 border-r-4 border-t-2 md:w-48">
+                        View Details
+                    </button></Link>
             </div>
         </div>
     );

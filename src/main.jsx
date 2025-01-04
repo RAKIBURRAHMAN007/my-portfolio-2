@@ -10,6 +10,7 @@ import Root from './pages/Root/Root.jsx';
 import Home from './pages/Home/Home.jsx';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
 import MyEducation from './components/MyEducation/MYEducation.jsx';
+import ProjectDetails from './components/ProjectDetails/ProjectDetails.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
       {
         path: '/education',
         element: <MyEducation></MyEducation>
+      },
+      {
+        path: '/details/:project_id',
+        element: <ProjectDetails></ProjectDetails>,
+        loader: ()=> fetch(`/project.json`)
       }
      
 
