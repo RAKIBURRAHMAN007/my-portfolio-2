@@ -2,7 +2,7 @@ import React from 'react';
 import { easeOut, motion } from "framer-motion";
 import { useTypewriter } from 'react-simple-typewriter';
 import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
-import dp from '../../assets/ratul.jpeg'
+import dp from '../../assets/Photoroom-20250108_230137.png'
 const Banner = () => {
     const [text] = useTypewriter({
         words: ['A passionate  Web Developer', 'Computer Science Enthusiast'],

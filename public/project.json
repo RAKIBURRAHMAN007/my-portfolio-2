@@ -1,7 +1,56 @@
 [
   {
-    "project_name": "RestoRooms",
+    "project_name": "Scholar 360",
     "project_id": 1,
+    "purpose": "Scholar 360 is a Scholarship Management System that streamlines the process of finding, applying for, and managing scholarships. It serves students, administrators, and moderators with an intuitive and secure platform.",
+    "live_url": "https://scholar360.netlify.app/",
+    "github_repo_link": "https://github.com/RAKIBURRAHMAN007/Scholar-360-client-side",
+    "image": "https://i.ibb.co.com/example-image.png",
+    "images": [
+      "https://i.ibb.co.com/PzJzQb0N/Screenshot-172.png",
+      "https://i.ibb.co.com/5Xj2fpt6/Screenshot-180.png",
+      "https://i.ibb.co.com/prsTR2GW/Screenshot-181.png",
+      "https://i.ibb.co.com/G37hCNVV/Screenshot-182.png",
+      "https://i.ibb.co.com/wFG8MvMg/Screenshot-183.png",
+      "https://i.ibb.co.com/dsT032Ct/Screenshot-184.png",
+      "https://i.ibb.co.com/M52VHQcp/Screenshot-185.png",
+      "https://i.ibb.co.com/p6b3Vznq/Screenshot-188.png",
+      "https://i.ibb.co.com/zVtFW5MC/Screenshot-190.png"
+    ],
+    "key_features": [
+      "Role-Based Access: Separate dashboards for users, administrators, and moderators.",
+      "Comprehensive Scholarship Search: Allows users to explore scholarships by name, university and eligibility.",
+      "Application Management System: Users can apply for scholarships and track their application status.",
+      "Secure Authentication: Email/password login with Firebase, including social login options.",
+      "Dynamic Admin & Moderator Controls: Admins and moderators can manage scholarships, applications, and Admin can manage (users) user roles.",
+      "Integrated Payment Gateway: Stripe integration for secure application fee payments.",
+      "User Dashboard: View applied scholarships, manage applied  applications, and track application status.",
+      "Review and Rating System: Users can review scholarships with ratings and comments.",
+      "Responsive Design: Fully optimized for mobile, tablet, and desktop users.",
+      "Error Handling: Custom 404 page and user-friendly error messages.",
+      "Real-Time Notifications: Updates on application progress and status changes.",
+      "Environment Security: Secures Firebase and MongoDB credentials using environment variables."
+    ],
+    "npm_packages": [
+      "React",
+      "React Router DOM",
+      "Firebase",
+      "Tailwind CSS",
+      "React Toastify",
+      "SweetAlert2",
+      "MongoDB",
+      "Express",
+      "Cors",
+      "dotenv",
+      "Moment.js",
+      "React Hook Form",
+      "JWT",
+      "Stripe"
+    ]
+  },
+  {
+    "project_name": "RestoRooms",
+    "project_id": 2,
     "purpose": "A modern Hotel Booking Platform that provides users with a seamless and engaging experience for discovering and booking hotel rooms. It combines interactive design, robust functionality, and secure user authentication to ensure an enjoyable and trustworthy platform for users.",
     "live_url": "https://restorooms.netlify.app/",
     "github_repo_link": "https://github.com/RAKIBURRAHMAN007/RestoRooms",
@@ -47,7 +96,7 @@
   },
   {
     "project_name": "Visa Nexus",
-    "project_id": 2,
+    "project_id": 3,
     "purpose": "The Visa Navigator Portal aims to simplify and enhance the process of managing visa related activities by providing a user-friendly platform. It allows users to explore various visa options, check detailed requirements, apply for visas, and track their applications seamlessly.",
     "live_url": "https://visa-nexus.netlify.app/",
     "github_repo_link": "https://github.com/RAKIBURRAHMAN007/Visa_Nexus-ClientSide",
@@ -59,7 +108,6 @@
       "https://i.ibb.co.com/FBMcKZJ/Screenshot-82.png",
       "https://i.ibb.co.com/WzPh5xH/Screenshot-80.png",
       "https://i.ibb.co.com/RBpV7z0/Screenshot-78.png"
-      
     ],
     "key_features": [
       "Simplified Visa Management: Easily browse visa options, check requirements, and track applications.",
@@ -91,7 +139,7 @@
   },
   {
     "project_name": "Lingo Bingo",
-    "project_id": 3,
+    "project_id": 4,
     "purpose": "Lingo Bingo is a vocabulary learning application designed to make language acquisition fun, interactive, and accessible. The purpose of the website is to help users overcome the challenges of memorizing and retaining vocabulary in a new language through an engaging and structured approach.",
     "live_url": "https://lingo-bingoo.netlify.app/",
     "github_repo_link": "https://github.com/RAKIBURRAHMAN007/Lingo-Bingo",
