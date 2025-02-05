@@ -42,11 +42,14 @@ const skills = [
     icon: "https://img.icons8.com/?size=100&id=cREyrHivHRHF&format=png&color=000000", // Icon for MongoDB
     details: "Experience in designing NoSQL databases with MongoDB.",
   },
+  
   {
-    name: "JWT",
-    icon: "https://img.icons8.com/?size=100&id=rHpveptSuwDz&format=png&color=000000", // Icon for JWT
-    details: "Knowledgeable in implementing secure authentication with JWT.",
-  },
+    name: "Next.js",
+    icon: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000", // Icon for Next.js
+    details: "Skilled in building fast, SEO-friendly web applications with Next.js.",
+  }
+  
+  ,
   {
     name: "GitHub",
     icon: "https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=000000", // Icon for GitHub

@@ -11,7 +11,7 @@ const ProjectDetails = () => {
     const project = projectData.find(project => project.project_id === id);
     console.log(project);
 
-    const { project_name, purpose, live_url, github_repo_link, images, key_features, npm_packages } = project;
+    const { project_name, purpose, live_url, github_repo_link, images, key_features, npm_packages ,challenges_faced,potential_improvements} = project;
 
     const sliderSettings = {
         infinite: true,
@@ -57,9 +57,25 @@ const ProjectDetails = () => {
                     ))}
                 </ul>
             </div>
+            <div className='border-black border group mt-6 bg-white p-6 rounded-md shadow-md mb-6'>
+                <h2 className='text-xl font-semibold'>Challenges Faced</h2>
+                <ul className='list-disc ml-6 mt-4'>
+                    {challenges_faced.map((challenge, index) => (
+                        <li key={index} className='text-gray-700'>{challenge}</li>
+                    ))}
+                </ul>
+            </div>
 
+            <div className='border-black border group mt-6 bg-white p-6 rounded-md shadow-md mb-6'>
+                <h2 className='text-xl font-semibold'>Potential Improvements</h2>
+                <ul className='list-disc ml-6 mt-4'>
+                    {potential_improvements.map((improvement, index) => (
+                        <li key={index} className='text-gray-700'>{improvement}</li>
+                    ))}
+                </ul>
+            </div>
             <div className="education-section border-black border group mt-6 bg-white p-6 rounded-md shadow-md mb-6">
-                <h3 className="text-xl font-semibold">Packages Used</h3>
+                <h3 className="text-xl font-semibold">Technology Stack</h3>
                 <ul className="list-disc pl-6">
                     {npm_packages.map((pkg, index) => (
                         <li key={index} className="text-gray-700">{pkg}</li>

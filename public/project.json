@@ -31,6 +31,18 @@
       "Real-Time Notifications: Updates on application progress and status changes.",
       "Environment Security: Secures Firebase and MongoDB credentials using environment variables."
     ],
+    "challenges_faced": [
+      "Complex role management with separate dashboards for users, moderators, and admins.",
+      "Secure payment integration using Stripe for scholarship transactions.",
+      "Real-time application tracking for user updates.",
+      "Handling large datasets efficiently for smooth scholarship retrieval."
+    ],
+    "potential_improvements": [
+      "Implement AI-based scholarship matching based on user profiles.",
+      "Enhance the application review system with detailed feedback and ranking.",
+      "Introduce multi-language support for a global audience.",
+      "Optimize performance for handling even larger scholarship datasets."
+    ],
     "npm_packages": [
       "React",
       "React Router DOM",
@@ -75,6 +87,18 @@
       "Access Control: Only authenticated users can book rooms and post reviews.",
       "404 Page: Custom 404 page for invalid routes.",
       "Secure Data Management: Secure credentials using environment variables for Firebase and MongoDB."
+    ],
+    "challenges_faced": [
+      "Implementing seamless room booking with date selection and availability checks.",
+      "Ensuring data security for user authentication and reviews.",
+      "Balancing an interactive UI with fast loading times."
+    ],
+    "potential_improvements": [
+      "Introduce AI-based hotel recommendations based on user preferences.",
+      "Implement a loyalty program for returning customers.",
+      "Improve the search and filter system with more precise options.",
+      "Implement a payment gateway for secure transactions.",
+      "Develop a user-based dashboard for personalized booking management."
     ],
     "npm_packages": [
       "React",
@@ -121,6 +145,18 @@
       "Secure Data Management: Environment variables for Firebase keys and secure user access.",
       "Light/Dark Mode Toggle: Theme customization for better user experience."
     ],
+    "challenges_faced": [
+      "Efficiently structuring visa data for filtering by country, type, and requirements.",
+      "Ensuring smooth visa application tracking while maintaining security.",
+      "Managing user authentication and restricting access to sensitive information.",
+      "Keeping visa requirement data accurate and up to date."
+    ],
+    "potential_improvements": [
+      
+      "Integrate a real-time chatbot for visa-related queries.",
+      "Implement an automated document verification system.",
+      "Provide real-time alerts for visa policy updates."
+    ],
     "npm_packages": [
       "React",
       "React Router DOM",
@@ -162,6 +198,18 @@
       "Error Handling: Custom 404 page for invalid routes.",
       "Secure Data Management: Environment variables for Firebase keys and secure user access."
     ],
+    "challenges_faced": [
+        
+        "Integrating accurate text-to-speech support for pronunciation.",
+        "Encouraging user retention and continuous learning.",
+        "Optimizing performance for smooth animations and interactivity."
+      ],
+      "potential_improvements": [
+        "Implement AI-powered personalized learning paths.",
+        "Introduce daily challenges and rewards to boost engagement.",
+        "Add leaderboards for competitive learning.",
+        "Expand language support beyond Spanish to attract a broader audience."
+      ],
     "npm_packages": [
       "react",
       "react-router-dom",
